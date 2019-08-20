@@ -3,3 +3,5 @@ title: "Introduction to probability and data"
 author: "Debrupa Nandi"
 output: html_notebook
 ---
+
+hi this is debrupa nandi
