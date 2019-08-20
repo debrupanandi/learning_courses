@@ -1,4 +1,5 @@
 ---
 title: "Introduction to probability and data"
+author: "Debrupa Nandi"
 output: html_notebook
 ---
