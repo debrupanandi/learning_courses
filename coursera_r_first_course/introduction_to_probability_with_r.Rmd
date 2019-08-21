@@ -5,3 +5,85 @@ output: html_notebook
 ---
 
 hi this is debrupa nandi
+**today is my second day with git**
+
+
+
+# studies
+**observational - **
+1. collect data in a way that does not directly interfere with how the data arise("observe")
+2. only establish an association
+3. retrospective uses past data
+4. prospective - data are collected throughout the study
+
+**experiment**- randomly assign subjects to treatments
+
+Confounding variables - extraneous variables that affect both the explanatory and the response variable and that make it seem like there is a relationship between them
+
+**Correlation does not imply causation**
+**Observational staements help make us make correlation statements**
+**Experiments help us infer causation**
+
+![](images_for_r/Annotation 2019-08-21 123111.png)
+
+
+
+![](images_for_r/Annotation 2019-08-21 123556.png)
+
+
+
+![](images_for_r/Annotation 2019-08-21 123820.png)
+
+![](images_for_r/Annotation 2019-08-21 124105.png)
+
+![](images_for_r/Annotation 2019-08-21 124456.png)
+
+
+
+![](images_for_r/Annotation 2019-08-21 125034.png)
+
+
+![](images_for_r/Annotation 2019-08-21 125227.png)
+
+
+
+![](images_for_r/Annotation 2019-08-21 130611.png)
+
+![](images_for_r/Annotation 2019-08-21 130923.png)
+
+#### In statistics, a confounder is a variable that influences both the dependent variable and independent variable, causing a spurious association. Confounding is a causal concept, and as such, cannot be described in terms of correlations or associations. ####
+
+![](images_for_r/Annotation 2019-08-21 131723.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
