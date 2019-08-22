@@ -55,17 +55,52 @@ Confounding variables - extraneous variables that affect both the explanatory an
 
 ![](images_for_r/Annotation 2019-08-21 131723.png)
 
+![](images_for_r/Annotation 2019-08-22 110259.png)
+
+![](images_for_r/Annotation 2019-08-22 111645.png)
+
+![](images_for_r/Annotation 2019-08-22 112143.png)
+```{r}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+data(arbuthnot)
+View(arbuthnot)
+```
 
 
 
 
+![](images_for_r/Annotation 2019-08-22 114711.png)
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+
+data(present)
+View(present)
+
+present <- present %>%
+  mutate(total = boys + girls)
+prop_boys <- present$boys/present$total
+present <- present %>%
+  mutate(prop_boys)
+ggplot(data = present, aes(x = year, y = prop_boys)) +
+  geom_line() + geom_point() + geom_smooth()
+present <- present %>%
+  mutate(more_boys = present$boys > present$girls)
+View(present)
+present <- present %>%
+  mutate(prop_boy_girl = boys / girls)
+View(present)
+ggplot(data = present, aes(x = year, y = prop_boy_girl)) +
+  geom_line() + geom_point() + geom_smooth()
+present <- present %>%
+arrange(desc(total))
 
 
-
-
-
-
-
+```
 
 
 
