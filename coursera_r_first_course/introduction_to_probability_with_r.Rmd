@@ -101,23 +101,26 @@ arrange(desc(total))
 
 
 ```
+#### Robust statistics are statistics with good performance for data drawn from a wide range of probability distributions, especially for distributions that are not normal. Robust statistical methods have been developed for many common problems, such as estimating location, scale, and regression parameters. ####
+
+#### The response variable is the focus of a question in a study or experiment. An explanatory variable is one that explains changes in that variable. It can be anything that might affect the response variable. Let’s say you’re trying to figure out if chemo or anti-estrogen treatment is better procedure for breast cancer patients. The question is: which procedure prolongs life more? And so survival time is the response variable. The type of therapy given is the explanatory variable; it may or may not affect the response variable. In this example, we have only one explanatory variable: type of treatment. In real life you would have several more explanatory variables, including: age, health, weight and other lifestyle factors. ####
+
+![](images_for_r/Annotation 2019-08-22 150355.png)
+
+![](images_for_r/Annotation 2019-08-22 150526.png)
+
+![](images_for_r/Annotation 2019-08-22 151443.png)
 
 
 
+![](images_for_r/Annotation 2019-08-22 151545.png)
+
+![](images_for_r/Annotation 2019-08-22 151951.png)
 
 
+![](images_for_r/Annotation 2019-08-22 152711.png)
 
-
-
-
-
-
-
-
-
-
-
-
+![](images_for_r/Annotation 2019-08-22 154551.png)
 
 
 
