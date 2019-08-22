@@ -122,6 +122,72 @@ arrange(desc(total))
 
 ![](images_for_r/Annotation 2019-08-22 154551.png)
 
+![](images_for_r/Annotation 2019-08-22 155830.png)
+
+
+![](images_for_r/Annotation 2019-08-22 163133.png)
+
+
+
+![](images_for_r/Annotation 2019-08-22 163412.png)
+
+
+
+![](images_for_r/Annotation 2019-08-22 164301.png)
+
+
+![](images_for_r/Annotation 2019-08-22 165701.png)
+
+![](images_for_r/Annotation 2019-08-22 165842.png)
+
+
+####  Also known as a parallel boxplot or comparative boxplot, a side-by-side boxplot is a visual display comparing the levels (the possible values) of one categorical variable by means of a quantitative variable. ####
+
+![](images_for_r/Annotation 2019-08-22 174909.png)
+
+
+
+![](images_for_r/Annotation 2019-08-22 175407.png)
+
+
+
+![](images_for_r/Annotation 2019-08-22 175559.png)
+
+
+#### In statistical hypothesis testing, the p-value or probability value is, for a given statistical model, the probability that, when the null hypothesis is true, the statistical summary would be equal to, or more extreme than, the actual observed results. ####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
