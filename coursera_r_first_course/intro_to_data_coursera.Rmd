@@ -505,5 +505,7 @@ were `"delayed"` departing arrive `"on time"`?
 
 ```{r on-time-arr-perc}
 # type your code for Question 10 here, and Knit
-
+nycflights %>%
+  mutate(arr_type = ifelse(arr_delay < 0, "on time", "delayed"))
+  mutate(dep_type = ifelse(dep_delay < 5, "on time", "delayed"))
 ```
