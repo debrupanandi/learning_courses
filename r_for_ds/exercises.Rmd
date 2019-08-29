@@ -1,0 +1,146 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+1. What geom would you use to draw a line chart? A boxplot? A histogram? An area chart?
+
+line chart - geom_line
+box plot - geom_box plot
+histogram - geom_histogram
+area chart - geom area
+
+
+2. Run this code in your head and predict what the output will look like. Then, run the code in R and check your predictions.
+
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = drv)) + geom_point() + geom_smooth(se = FALSE)
+```
+
+
+
+What does show.legend = FALSE do? What happens if you remove it?
+Why do you think I used it earlier in the chapter?
+
+show.legend = False, removes the legend from the graph
+
+
+4. What does the se argument to geom_smooth() do?
+
+The se arguement of geom_smooth if set to false, does not show the deviation of the data.
+
+
+5. Will these two graphs look different? Why/why not?
+
+
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + geom_point() + geom_smooth()
+```
+
+
+```{r}
+ggplot() + geom_point(data = mpg, aes(x = displ, y = hwy)) + geom_smooth(data = mpg, aes(x = displ, y = hwy))
+```
+
+
+Recreate the R code necessary to generate the following graphs.
+
+```{r}
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_point(size = 5) + geom_smooth(size = 2, se = FALSE)
+```
+
+
+```{r}
+ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy), size = 2) + geom_smooth(mapping = aes(x = displ, y = hwy, group = drv), size = 2, , se = FALSE)
+```
+
+
+
+```{r}
+ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, colour = drv), size = 4) + geom_smooth(mapping = aes(x = displ, y = hwy, group = drv, colour = drv), size = 2, se = FALSE)
+```
+
+
+```{r}
+ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color = drv), size = 4) + geom_smooth(mapping = aes(x= displ, y = hwy), size = 2, se = FALSE)
+```
+
+
+
+```{r}
+ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color = drv), size = 4) + geom_smooth(mapping = aes(x = displ, y = hwy, linetype = drv), size  = 2, se = FALSE)
+```
+
+
+```{r}
+ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy), color = "white", size = 5) + geom_point(mapping = aes(x= displ, y = hwy, color = drv),size = 3)
+```
+
+Exercises - 3.8.1
+
+1. What is the problem with this plot? How could you improve it?
+```{r}
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + geom_point(position = "jitter")
+```
+
+
+the entire data have not been shown, many of the data points, have been clubbed together
+
+2. What parameters to geom_jitter() control the amount of jittering?
+
+```{r}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
